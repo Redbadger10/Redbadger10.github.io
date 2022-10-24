@@ -1,0 +1,136 @@
+body {
+    font-family: Roboto;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+header h1 {
+    align-self: flex-end;
+    margin-bottom: .25em;
+}
+
+.site-title a {
+    font-family: Roboto Slab;
+    color: white;
+    text-decoration: none;
+    font-size: 2.5em;   
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    gap: 20px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #efefef;
+    padding: 1%;
+    row-gap: 1em;
+    height: 25em;
+    border-radius: 5px;
+}
+
+.filter-input-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1em;
+    width: 200px;
+}
+
+.filter-input {
+    width: 90%;
+}
+
+.filter-input-element {
+    width: 100%;
+}
+
+.filter-fieldset {
+    width: 90%;
+}
+
+.action-button {
+    color: white;
+    background-color: black;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.action-button:hover {
+    background-color: #F3D0B5;
+    color: black;
+}
+
+#posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 30px;
+
+}
+
+.post a {
+    color: #f67919;
+    text-decoration: none;
+}
+
+.post-price {
+    border: 1px solid #b3b3b3;
+    background-color: #efefef;
+    border-radius: 5px;
+    font-size: .80em;
+    padding: 3px;
+}
+
+.post img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    max-width: 275px;
+    max-height: 275px;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+#sell-something-button {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: none;
+    background-color: #f67811;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#sell-something-button:hover {
+    width: 75px;
+    height: 75px;
+    font-size: 37.5px;
+}
